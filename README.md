@@ -13,5 +13,6 @@ I created the index.html (having the canvas, the div for the loading bar and I i
 
 * I loaded the .gltf file and I scaled it to (0.065,0.065,0.065) to match the size of the screen and then used Tween for the intro animation (scaling from 0.1 - to 1.0) I used this specific values because I thought it looked nicer. After this I assigned the childrens from the gltf model to the variables earth and text and I created a function inside of the loader to animate them. Finally, I created the render and run the animation. 
 
+* I added an event listener to resize the window and make it responsive. 
 
 * Link for the project deployed https://josepereiroml.github.io/planet/
